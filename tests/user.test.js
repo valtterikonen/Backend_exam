@@ -15,7 +15,11 @@ describe('User Routes', () => {
       // Arrange
       const userData = {
         email: 'test@example.com',
-        password: 'R3g5T7#gh'
+        password: 'R3g5T7#gh',
+        firstName: 'Test',
+        lastName: 'User',
+        role: 'user',
+        phoneNumber: 1234567890
       };
 
       // Act
