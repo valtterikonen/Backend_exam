@@ -26,7 +26,7 @@ const userSchema = new Schema({
     type: String, 
     required: false 
   },
-  phone: { 
+  phoneNumber: { 
     type: Number, 
     required: false 
   }
